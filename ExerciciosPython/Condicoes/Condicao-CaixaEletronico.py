@@ -1,0 +1,21 @@
+valor =int(input('Digite o valor que deseja sacar : '))
+if valor >= 10 and valor <=600:
+    cem = int(valor/100)
+    print (' A quantidade de notas de 100 e {}:'.format(cem))
+    valor = valor -(cem * 100)
+   ## print ('Sobrou {}'.format(valor))
+    cinquenta= int(valor/50)
+    print ('A quantidade de notas de 50 e {}:'.format(cinquenta))
+    valor = valor - (cinquenta * 50)
+   ## print ('sobrou {}'.format(valor))
+    dez = int(valor/10)
+    print ('a quantidade de notas de 10 e {}:'.format(dez))
+    valor = valor - (dez * 10)
+    cinco = int(valor/5)
+    print ('a quantidade de notas de 5 e {}:'.format(cinco))
+    valor =  valor - (cinco * 5)
+    um = valor
+    print ('a quantidade de notas de 1 e : {} : '.format(um))
+else :
+    print ('Valores não podem ser sacados')
+    exit()

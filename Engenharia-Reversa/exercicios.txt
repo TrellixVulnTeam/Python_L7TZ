@@ -1,0 +1,7 @@
+Binario até 8 unidades
+
+Hexadecimal em até 20
+
+Soma em hexadecimail = 0x19 + 1
+
+0x401000 - 4
