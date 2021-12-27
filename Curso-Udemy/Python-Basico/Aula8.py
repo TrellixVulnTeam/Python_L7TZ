@@ -11,3 +11,5 @@ print(f'sua idade é : {idade}')
 print(f'Você nasceu em {anon}')
 print(f'Você nasceu em {anon}')
 print(f'seu imc : :{imc:.2f}')
+
+
