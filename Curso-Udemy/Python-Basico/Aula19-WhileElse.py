@@ -5,6 +5,7 @@ while contador <=10:
     print(contador,acumulador)
 
     if contador > 5:
+        print("está no break")
         break
 
     acumulador = acumulador + contador
