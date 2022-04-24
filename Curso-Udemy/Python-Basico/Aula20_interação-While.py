@@ -9,8 +9,7 @@ input=input("Digite a letra  uue desehva substituir : ")
 while contador < qt:
     letra = frase[contador]
     if letra == input:
-        nova_string += 'P'
-
+        nova_string += input.upper()
     else:
         nova_string += letra
     contador +=1
